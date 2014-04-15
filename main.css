@@ -1,0 +1,122 @@
+#container {
+	min-width: 980px;
+	font-family: Arial;
+	font-size: 0.9em;
+}
+
+#signin {
+	background: -webkit-linear-gradient(#4285f4, #4585f1);
+	color: #fff;
+	font-weight: bold;
+	padding: 9px 14px;
+	border-radius: 3px;
+	font-size: 1em;
+	border: 0;
+	font-family: Helvetica;
+	font-weight: 550;
+}
+
+#signin:active {
+	background: #4483eb;
+	border: 0;
+	box-shadow: none;
+}
+
+#grid {
+	width: 25px;
+	height: 25px;
+}
+
+header {
+	height: 200px;
+}
+
+header ul {
+	text-align: right;
+	padding-right: 30px;
+}
+
+header li {
+	display: inline-block;
+	color: #49494e;
+	vertical-align: middle;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+#google_logo {
+	display: block;
+	width: 30%;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+
+input[type="search"] {
+	width: 65%;
+	background: url('images/microphone.png') no-repeat;
+	background-position: 100% 50%;
+	background-size: contain;
+	border: 1px solid #d8d8d8;
+	color: #000;
+	display: block;
+	margin: 0 auto;
+	font-size: 1em;
+	padding: 5px;
+}
+
+input[type="search"]:focus {
+	border: 1px solid #4285f4;
+	-webkit-appearance: none;
+}
+
+input[type="search"]:hover {
+	border: 1px solid #b2b2b2;
+}
+
+#sbtn {
+	border: 1px solid #d8d8d8;
+	border-radius: 3px;
+	background: -webkit-linear-gradient(#f4f4f4, #f3f3f3);
+	font-family: Arial;
+	font-weight: bold;
+	color: #444444;
+	font-size: 0.85em;
+	padding: 8px;
+	margin-top: 17px;
+	margin-left: 13px
+}
+
+#sbtn:hover {
+	border: 1px solid #d8d8d8;
+}
+
+.search_buttons {
+	text-align: center;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	background-color: #f4f4f4;
+	border: 1px solid #e7e7e7;
+}
+
+footer li {
+	color: #717171;
+	display: inline-block;
+	margin: 15px;
+}
+
+footer > ul {
+	float: left;
+}
+
+footer ul:last-child {
+	float: right;
+}
+
+span {
+	color: #bc4a41;
